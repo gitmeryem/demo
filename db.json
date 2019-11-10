@@ -1,14 +1,120 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "success": true,
+    "message": "Voici les lignes",
+    "results": {
+        "lignes": [
+            {
+                "id_ligne": "1",
+                "0": "1",
+                "nom_ligne": "Bus 1",
+                "1": "Bus 1",
+                "trajet": "Route de Mehdia,Sale - Avenue Hassan II, Rabat",
+                "2": "Route de Mehdia,Sale - Avenue Hassan II, Rabat",
+                "longueur": "9,47 km",
+                "3": "9,47 km",
+                "duree": "00:24:02",
+                "4": "00:24:02",
+                "nbr_station": "9",
+                "5": "9",
+                "id_moyen": "6",
+                "6": "6"
+            },
+            {
+                "id_ligne": "2",
+                "0": "2",
+                "nom_ligne": "Bus 101",
+                "1": "Bus 101",
+                "trajet": "Avenue Al Massira,Rabat - Rue Ouarfal,Rabat",
+                "2": "Avenue Al Massira,Rabat - Rue Ouarfal,Rabat",
+                "longueur": "18km",
+                "3": "18km",
+                "duree": "01:21:38",
+                "4": "01:21:38",
+                "nbr_station": "20",
+                "5": "20",
+                "id_moyen": "6",
+                "6": "6"
+            },
+            {
+                "id_ligne": "6",
+                "0": "6",
+                "nom_ligne": "Bus 303",
+                "1": "Bus 303",
+                "trajet": "Station Shell, Ai, El Aouda - P4036, Tamesna",
+                "2": "Station Shell, Ai, El Aouda - P4036, Tamesna",
+                "longueur": "13km",
+                "3": "13km",
+                "duree": "00:24:12",
+                "4": "00:24:12",
+                "nbr_station": "9",
+                "5": "9",
+                "id_moyen": "6",
+                "6": "6"
+            },
+            {
+                "id_ligne": "9",
+                "0": "9",
+                "nom_ligne": "Tram L1",
+                "1": "Tram L1",
+                "trajet": "Madinat Al Irfane, Rabat- Her Karima, Sale",
+                "2": "Madinat Al Irfane, Rabat- Her Karima, Sale",
+                "longueur": "13,5 km",
+                "3": "13,5 km",
+                "duree": "00:38:41",
+                "4": "00:38:41",
+                "nbr_station": "20",
+                "5": "20",
+                "id_moyen": null,
+                "6": null
+            },
+            {
+                "id_ligne": "10",
+                "0": "10",
+                "nom_ligne": "ilamin",
+                "1": "ilamin",
+                "trajet": "ilamin",
+                "2": "ilamin",
+                "longueur": "23km",
+                "3": "23km",
+                "duree": null,
+                "4": null,
+                "nbr_station": "8",
+                "5": "8",
+                "id_moyen": null,
+                "6": null
+            },
+            {
+                "id_ligne": "11",
+                "0": "11",
+                "nom_ligne": "data",
+                "1": "data",
+                "trajet": "data",
+                "2": "data",
+                "longueur": "data",
+                "3": "data",
+                "duree": null,
+                "4": null,
+                "nbr_station": "data",
+                "5": "data",
+                "id_moyen": null,
+                "6": null
+            },
+            {
+                "id_ligne": "12",
+                "0": "12",
+                "nom_ligne": "Erganzen",
+                "1": "Erganzen",
+                "trajet": "Erganzen",
+                "2": "Erganzen",
+                "longueur": "Erganzen",
+                "3": "Erganzen",
+                "duree": null,
+                "4": null,
+                "nbr_station": "4",
+                "5": "4",
+                "id_moyen": null,
+                "6": null
+            }
+        ]
+    }
 }
